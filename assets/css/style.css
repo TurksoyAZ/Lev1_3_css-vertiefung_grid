@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section{
+ width: 100vw;
+ height: 100vh;
+ display: grid;
+ gap: 10px;
+ grid-template-columns:  auto auto auto auto;
+ grid-template-rows: 10% 80% 10% ;
+ 
+}
+
+.box1{
+  background: rgb(13, 6, 233);
+  grid-column: 1 / span 4;
+}
+
+.box2{
+  background: rgb(73, 103, 11);
+
+}
+
+.box3{
+  background: red;
+  grid-column: 2 / span 3;
+  
+}
+
+.box4{
+  background: rgb(106, 20, 210);
+  grid-column: 1 / span 4;
+}
